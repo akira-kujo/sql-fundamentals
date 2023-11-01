@@ -78,7 +78,7 @@ WHERE order_date >= '2019-01-01'
 1. Selecting for all orders from the year 2019
 2. Doing so by equal to or greater than 
 
-### AND, OR and NOT Operators
+### AND, OR Operators
 
 ```bash
 SELECT *
@@ -96,20 +96,3 @@ WHERE birth_date > '1975-01-14' AND points > 1000
 
 * The **AND** operator is always operated on first (has higher precedence)
 * Parantheses ensures the **OR** operator can go first
-
-```bash
-SELECT *
-FROM Customers
-WHERE birth_date > '1975-01-14' OR
-    (points > 1000 AND state = 'VA')
-```
-
-```bash
-SELECT *
-FROM Customers
-WHERE NOT (birth_date > '1975-01-14' OR points > 1000)
-```
-1. NOT negates **ALL** of the operators within the query
-   1. birth date becomes <= '1975-01-14'
-   2. OR becomes AND
-   3. points > becomes <=
