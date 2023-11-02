@@ -50,4 +50,4 @@ WHERE last_name LIKE '%t%'
    1. % any number of characters
    2. _ single character (e.g. __t searches for a name that has 3 characters and *ends* with t)
 
-<img src="./MySQL_images/like-operator.png"/>
+<img src="../MySQL_images/like-operator.png"/>

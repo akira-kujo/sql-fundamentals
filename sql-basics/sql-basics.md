@@ -11,8 +11,8 @@
 * Multiple tables which are related to eachother through shared data
 * Below is an example of two separate tables sharing data...
 
- <img src="./MySQL_images/shared_data1.png"/>
- <img src="./MySQL_images/shared_data2.png"/>
+ <img src="../MySQL_images/shared_data1.png"/>
+ <img src="../MySQL_images/shared_data2.png"/>
 
 ### SELECT CLAUSE
 
@@ -49,8 +49,8 @@ FROM customers
 1. Table contains duplicate items (2 persons with the same 'state' e.g. VA)
 2. Distinct option will only reveal unique data (VA once)
 
- <img src="./MySQL_images/duplicate.png"/>
- <img src="./MySQL_images/distinct.png"/>
+ <img src="../MySQL_images/duplicate.png"/>
+ <img src="../MySQL_images/distinct.png"/>
 
 ### WHERE CLAUSE
 
@@ -60,7 +60,7 @@ FROM customers
 SELECT *
 FROM Customers
 WHERE points > 3000
- ```
+```
 
 ```bash
 SELECT *

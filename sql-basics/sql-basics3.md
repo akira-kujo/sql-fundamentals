@@ -24,7 +24,7 @@ WHERE last_name REGEXP '[gim]e'
 
 1. Search persons with characters 'g, i or m' at any point in their name before 'e'
 
-<img src="./MySQL_images/regexp.png"/>
+<img src="../MySQL_images/regexp.png"/>
 
 - ^ beginning
 - $ end
@@ -41,3 +41,9 @@ WHERE last_name REGEXP 'B[R]|B[U]'
 1. Search for persons where last name has a B and is followed by R or U
 
 ### Searching for Missing Values
+
+```bash
+SELECT *
+FROM customers
+WHERE phone IS NULL
+```
